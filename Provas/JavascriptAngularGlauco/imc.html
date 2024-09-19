@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+<body>
+    <script>
+        /*
+        FAÇA UM SCRIPT PARA CALCULAR O IMC = PESO DIVIDIDO PELA ALTURA
+        */
+        peso = window.prompt('Digite o seu peso!');
+        altura = window.prompt('Digite o sua altura!');
+
+        imc = peso / (altura*altura);
+
+        document.write('Seu imc é de'+imc);
+        
+        if (imc < 18.5){
+            document.write('<br><h1>Abaixo do peso!</h1>');
+        }
+        if (imc >= 18.5 && imc <= 24.9){
+            document.write('<br><h1>Abaixo do Peso normal!</h1>');
+        }
+        if (imc >= 25 && imc <= 29.9){
+            document.write('<br><h1>Sobrepeso!</h1>');
+        }
+        if (imc >= 30 && imc <= 34.9){
+            document.write('<br><h1>Obesidade grau 1!</h1>');
+        }
+        if (imc >= 35 && imc <= 39.9){
+            document.write('<br><h1>Obesidade grau 2!</h1>');
+        }
+        else if (imc >= 40){
+            document.write('<br><h1>Obesidade grau 3 ou mórbida!</h1>');
+        }
+
+    </script>
+</body>
+</html>

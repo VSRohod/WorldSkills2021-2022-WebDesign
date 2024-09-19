@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <section ng-app="lista3" ng-controller="Minhalista3">
+      Usuário <input id="usuario" name="usuario" ng-model="usuario" /><br />
+      Senha
+      <input type="password" id="senha" name="senha" ng-model="senha" /><br />
+      <p ng-if="usuario===''">USUÁRIO: Ainda para avaliar</p>
+      <p ng-if="usuario!=='SENAI' && senha!=='SENAI'">
+        USUÁRIO: Não valido, tente novamente
+      </p>
+      <p ng-if="usuario==='SENAI' && senha==='SENAI'">
+        USUÁRIO: Usuário valido
+      </p>
+    </section>
+    <script src="script/script3.js"></script>
+  </body>
+</html>

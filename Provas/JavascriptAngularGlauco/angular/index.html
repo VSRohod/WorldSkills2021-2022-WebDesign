@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salário Familia</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <section ng-app="meuApp" ng-controller="minhaControle" id="secao">
+        <img src="image/salario_familia.png" alt="Logo Salário Familia" title="Logo Salário Familia">
+        <input type="text" ng-model="empregado" id="empregado" name="empregado" placeholder="Empregado"/>
+        <input type="number" ng-model="filhos" id="filhos" name="filhos" min="0" placeholder="Quantidade de filhos menores que 14 anos"/>
+        <input type="number" ng-model="salario" id="salario" name="salario" step="0.01" min="0" placeholder="Salário"/>
+        <p ng-bind="'Empregado:'+empregado">Empregado :</p>
+        <p>Quantidade de Filhos: {{filhos}}</p>
+        <p>Salário: {{salario}}</p>
+
+        <table>
+                <tr>
+                    <td>Salario-Contribuição</td>
+                    <td>Cota Salário Família</td>
+                </tr>
+                <tr>
+                    <td>Até R$806,80</td>
+                    <td>R$41,37 por filho</td>
+                </tr>
+                <tr>
+                    <td>Entre R4806,81 e R$1.212,64</td>
+                    <td>R$26,16 por filho</td>
+                </tr>
+                <tr>
+                    <td>Mais de R$1.212,64</td>
+                    <td>Não há</td>
+                </tr>
+            </table>
+        <h2><span ng-if="salario<=806.80">Sálario Família: R${{filhos * 41.37}}</span></h2>
+        <h2><span ng-if="salario<=1212.64 && salario<=1212.64">Sálario Família: R${{filhos * 26.16}}</span></h2>
+        <h2><span ng-if="salario>1212.64">Sálario Família: R${{filhos * 0}}</span></h2>
+    </section>
+    <script src="script/script.js"></script>
+  </body>
+</html>

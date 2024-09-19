@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário Familia</title>
+    <link rel="stylesheet" href="style/style.css"> 
+</head>
+<body>
+    <section>
+        <header>
+            <figure>
+                <img src="image/salario_familia.png" alt="Logo Salário Familia" title="Logo Salário Familia">
+            </figure>
+        </header>
+        <form>
+            <input type="text" id="empregado" name="empregado" placeholder="Empregado">
+            <div id="divempregado" class="aviso" data-target>Digite o nome do empregado completo com letras maiusculas na primeira letra</div>
+            <input type="number" id="filhos" name="filhos" placeholder="Quantidade de filhos menores de 14 anos ou Inválido" min="1">
+            <div id="divfilhos" class="aviso" data-target>Digite a quantidade de filhos</div>
+            <input type="number" step="0.01" id="salario" name="salario" placeholder="Salário Contribuição" min="0">
+            <div id="divsalario" class="aviso" data-target>Digite o seu salario</div>
+            <table>
+                <tr>
+                    <td>Salario-Contribuição</td>
+                    <td>Cota Salário Família</td>
+                </tr>
+                <tr>
+                    <td>Até R$806,80</td>
+                    <td>R$41,37 por filho</td>
+                </tr>
+                <tr>
+                    <td>Entre R4806,81 e R$1.212,64</td>
+                    <td>R$26,16 por filho</td>
+                </tr>
+                <tr>
+                    <td>Mais de R$1.212,64</td>
+                    <td>Não há</td>
+                </tr>
+            </table>
+            <button id="calcular" class="botao" type="button"><b>Calcular</b></button>
+            <button id="limpar" class="botao" type="reset"><b>Limpar</b></button>
+        </form>
+        <h2>Salário Família: R$<span id="resultado"></span></h2>
+    </section>
+    <script src="script/script.js"></script>
+</body>
+</html>

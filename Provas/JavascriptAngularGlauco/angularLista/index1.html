@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <section ng-app="lista" ng-controller="Minhalista">
+      Digite o endereço:
+      <input type="text" id="url" name="url" ng-model="url" /><br />
+      <p>
+        Você está prestes a ir para:
+        <span id="link">https://www.{{url}}.com</span>.Tem certeza?
+      </p>
+      <button id="urlButton" ng-click="abrirLink()">Ir</button>
+    </section>
+    <script src="script/script.js"></script>
+  </body>
+</html>
