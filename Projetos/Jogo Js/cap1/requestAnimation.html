@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Animation</title>
+</head>
+<body>
+    <canvas id="meu_canvas" height="300" width="2000"></canvas>
+    <script>
+        canvas = document.getElementById("meu_canvas");
+        context = canvas.getContext('2d');
+
+        var x = 20;
+        var y = 100;
+        var raio = 5;
+        var anterior = new Date().getTime();
+        requestAnimationFrame(mexerBola);
+
+        function mexerBola(){
+            var agora = new Date().getTime();
+            var decorrido = agora- anterior;
+
+            context.clearRect(0,0,canvas.width,canvas.height);
+            context.beginPath();
+            context.arc(x,y,raio,0,Math.PI*2);
+            context.fill();
+            var velocidade = 15;
+            x += velocidade * decorrido / 1000;
+            requestAnimationFrame(mexerBola);
+        }
+    </script>
+</body>
+</html>

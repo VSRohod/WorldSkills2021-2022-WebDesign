@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(246, 246, 246);
+}
+
+header {
+  width: 100%;
+  height: 8rem;
+  background-color: aliceblue;
+  box-shadow: 10px 5px 5px rgb(207, 207, 207);
+}
+
+#logo {
+  width: 5rem;
+  height: auto;
+  margin: 0.5rem 4rem;
+  border-radius: 0.5rem;
+  padding: 1px;
+  float: left;
+}
+
+#tituloLogo {
+  font-size: 20pt;
+  line-height: 8rem;
+}
+
+#documento {
+  width: 80%;
+  height: auto;
+  margin: 1rem auto;
+  padding: 1rem 1rem 1rem;
+  background-color: white;
+}
+
+/* BOTAO INICIO */
+.iconsNav {
+  width: 50%;
+  height: 50%;
+  margin: 1rem 1.2rem;
+}
+
+.navButton {
+  width: 5rem;
+  height: 5rem;
+  background-color: black;
+  position: absolute;
+  display: none;
+}
+
+#prev {
+  top: 50%;
+}
+
+#next {
+  top: 50%;
+  right: 10%;
+}
+/* BOTAO FIM */
+
+#nav {
+  width: 100%;
+  height: 2rem;
+  margin: 1rem auto 0;
+  background-color: black;
+}
+
+.iconEsquerda {
+  width: 2rem;
+  height: 2rem;
+  float: left;
+  margin-left: 2rem;
+}
+
+.iconDireita {
+  width: 2rem;
+  height: 2rem;
+  float: right;
+  margin-right: 2rem;
+}
+
+.icons {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+#img {
+  width: 50%;
+  height: auto;
+  margin: 1rem auto;
+  transition: 0.5s;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+#code {
+  width: 95%;
+  height: auto;
+  padding: 1rem;
+  background-color: white;
+}
+
+#codeText {
+  min-width: 98%;
+  max-width: 98%;
+  min-height: 10rem;
+  margin: 0.5rem auto;
+  background-color: rgb(243, 243, 243);
+  resize: none;
+}
+
+#iconCode {
+  width: 2rem;
+  height: auto;
+  float: right;
+}
+
+footer {
+  width: 100%;
+  height: 4rem;
+  position: static;
+  bottom: 0%;
+  background-color: aliceblue;
+  box-shadow: 0px 0px 5px 5px rgb(219, 219, 219);
+  text-align: center;
+  line-height: 4rem;
+  color: rgb(116, 116, 116);
+}
+
+/* EVENTS */
+[data-target] {
+  cursor: pointer;
+}
+
+#img:hover {
+  width: 53%;
+  transition: 0.5s;
+}
+
+#codeText::selection {
+  background-color: yellow;
+}

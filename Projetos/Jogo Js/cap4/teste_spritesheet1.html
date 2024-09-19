@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spritesheet testes</title>
+    <script src="spritesheet.js"></script>
+</head>
+<body>
+    <canvas id="canvassprite" width="500" height="500"></canvas>
+    <script>
+        var context = document.getElementById("canvassprite").getContext("2d");
+        var imgSonic = new Image();
+        imgSonic.src = "spritesheet.png";
+
+        var sheet = new Spritesheet(context,imgSonic,3,8);
+        sheet.intervalo = 60;
+        sheet.linha = 1;
+        imgSonic.onload = gameLoop;
+
+        function gameLoop(){
+            context.clearRect(0,0,context.canvas.width,context.canvas.height);
+            sheet.proximoQuadro();
+            sheet.desenhar(100,100);
+            requestAnimationFrame(gameLoop);
+        }
+    </script>
+</body>
+</html>

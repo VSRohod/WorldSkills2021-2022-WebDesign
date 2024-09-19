@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teclado 2</title>
+    <script src="teclado.js"></script>
+</head>
+<body>
+    <canvas id="meu_canvas" width="500" height="500"></canvas>
+    <script>
+        function desenharPersonagem(){
+            context.clearRect(0,0,canvas.width,canvas.height);
+            context.fillRect(posicao,100,20,50);
+        }
+        var teclado = new Teclado(document);
+        var canvas = document.getElementById("meu_canvas");
+        var context = canvas.getContext('2d');
+
+        var posicao = 0;
+        desenharPersonagem();
+        
+        requestAnimationFrame(animar);
+        function animar(){
+            if (teclado.pressionada(SETA_ESQUERDA))
+                posicao -=10;
+            else if (teclado.pressionada(SETA_DIREITA))
+                posicao +=10;
+            
+        desenharPersonagem();
+        requestAnimationFrame(animar);
+
+        }
+    </script>
+</body>
+</html>

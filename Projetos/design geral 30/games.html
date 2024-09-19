@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <link rel="stylesheet" href="teste.css" type="text/css">
+</head>
+<body>
+    <div id="banner"> 
+        <img src="images/the-elder-scrolls-v-skyrim-special-edition-review_vpdm.1280.jpg" width= "1280px"
+        height= "400px" id=bannerimg>
+        <div id="cor"></div>
+    </div>
+    <header id="menu"> 
+        <ul>
+            <li><a href="#">Jogos</a></li>
+            <li><a href="#">Novidades</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Programas</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </header>  
+
+    <div id="corpo">
+        <div class="ofertas">
+            <h1 align=center style="padding:20px;color: white;">OFERTAS DO DIA</h1>
+            <div class="imgofertas">
+                <div class="figura">
+                    <a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">
+                        <h2 class="textoofertas">The Elder Scrolls V:Skyrim = R$:75,00</h2>
+                        <img src="images/R.jpg" class="img">
+                    </a>
+
+                    <a href="https://store.steampowered.com/app/219150/Hotline_Miami/">
+                        <h2 class="textoofertas">Hotline Miami = R$:19,99</h2>
+                        <img src="images/R (1).jpg" class="img">
+                    </a>
+
+                    <a href="https://store.steampowered.com/app/218620/PAYDAY_2/">
+                        <h2 class="textoofertas">PayDay2 = R$:36,60</h2>
+                        <img src="images/OIP (1).jpg" class="img">
+                    </a>
+                </div>
+                <nav align="center">
+                    <a href="#" class="prev"><</a>
+                    <a href="#" class="next">></a>
+                </nav>
+            </div>
+        </div>
+
+        <div id="recomendados" align="center">
+            <h1><b style="color: white; font-family: 'Trebuchet MS';" id="titulorecomendados">RECOMENDADOS</b></h1>
+            <ul>
+                <li><a href="#">AVENTURA</a></li>
+                <li><a href="#">ESPORTE</a></li>
+                <li><a href="#">AÇÃO</a></li>
+                <li><a href="#">TERROR</a></li>
+            </ul>
+        </div>
+        <!--teste!-->
+            <div class="wrapper">
+                <div class="media">
+                    <div class="layer">
+                        <p>Transistor</p>
+                    </div>
+                <img src="images/R.png" width="300" height="200" />
+                </div>
+
+                <div class="media">
+                    <div class="layer">
+                        <p>Outlast Trials</p>
+                    </div>
+                <img src="images/buy-the-outlast-trials-cd-key-compare-prices.jpg" width="300" height="200"/>
+                </div>
+
+                <div class="media">
+                    <div class="layer">
+                        <p>Cs Go</p>
+                    </div>
+                <img src="images/OIP (3).jpg" width="300" height="200"/>
+                </div>
+
+            </div>
+        <!--teste!-->
+
+        <h1 align="center" ><a href="#" style="color: white; text-decoration: none; font-family: 'Trebuchet MS';">Cadastre-se para continuar</a></h1>
+    </div>
+            <footer id="rodape" align="center">
+                Todos os direitos reservados a @Games<br>2021
+            </footer>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery.cycle.all.js"></script>
+    <script>
+        $(".figura").cycle({
+            fx: 'scrollLeft',
+            delay:10,
+            next: '.next',
+            prev: '.prev',
+        });
+    </script> 
+</body>
+</html>
