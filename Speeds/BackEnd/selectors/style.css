@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    width: 80%;
+    height: 5rem;
+    padding: 3rem;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    float: left;
+}
+
+#buttonNav{
+    width: 1rem;
+    height: 1rem;
+    padding: 1rem;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-weight: bolder
+}
+
+#options{
+    width: 1rem;
+    height: 1rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: rgb(62, 114, 255);
+    color: white;
+    margin: 0.5rem;
+}
+
+#options:hover{
+    background-color: rgb(20, 82, 255);
+}
+
+#buttonNav:hover{
+    background-color: rgb(88, 88, 88);
+}

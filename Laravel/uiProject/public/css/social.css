@@ -1,0 +1,54 @@
+#icon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    background-color: rgb(192, 192, 192);
+    border: black 0.1rem solid;
+    float: left;
+}
+
+#usuario{
+    width: 80%;
+    height: 3rem;
+    background-color: rgb(233, 233, 233);
+    margin: 1rem auto 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#usuario h2{
+    line-height: 3rem;
+}
+
+#listaAmigos{
+    width: 80%;
+    height: auto;
+    margin: 1rem auto 1rem;
+    background-color: rgb(240, 240, 240);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#usuarioAmigo{
+    width: 80%;
+    height: 1rem;
+    background-color: rgb(204, 201, 201);
+    margin: 1rem auto 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    line-height: 1rem;
+    border: black 0.1rem solid;
+
+}
+
+#iconAmigo{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(192, 192, 192);
+    border: black 0.1rem solid;
+    float: left;
+    margin-left: 2rem;
+}

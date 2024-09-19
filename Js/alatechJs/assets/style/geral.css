@@ -1,0 +1,65 @@
+html{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 6rem;
+    background-color: #7C8CEA;
+    box-shadow: rgba(50, 51, 53, 0.246) 0px 8px 8px;
+    color: white;
+}
+
+header h1{
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+}
+
+#logoff{
+    float: right;
+    line-height: 4rem;
+    padding:1rem;
+}
+
+#userDiv{
+    width: 8rem;
+    height: 4rem;
+    float: right;
+    padding:1rem;
+    text-align: center;
+    line-height: 4rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+#userImage{
+    width: 3rem;
+    height: 3rem;
+    float: right;
+    margin: 0.5rem auto;
+    transition: 0.2s;
+}
+
+#userImage:hover{
+      width: 3.2rem;
+    height: 3.2rem;
+}
+
+footer{
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: #7C8CEA;
+}

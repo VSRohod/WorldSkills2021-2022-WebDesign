@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #e8ebf3;
+  display: flex;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  background: transparent;
+  background-color: gold;
+  border-radius: 0px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);
+}
+
+input:checked {
+  width: 30px;
+  height: 30px;
+  background-color: gold;
+  content: "\2714;
+}
+
+input:hover {
+  border: none;
+  background-color: gold;
+}
+
+#checklist {
+  width: 19rem;
+  height: 20rem;
+  padding-top: 1rem;
+  border-radius: 1rem;
+  margin: 10rem auto;
+  background-color: white;
+  text-align: center;
+}
+
+#bread:hover {
+  color: rgba(107, 107, 107, 0.808);
+  text-decoration: line-through;
+}
+#cheese:hover {
+  color: rgba(107, 107, 107, 0.808);
+  text-decoration: line-through;
+}
+#coffee:hover {
+  color: rgba(107, 107, 107, 0.808);
+  text-decoration: line-through;
+}

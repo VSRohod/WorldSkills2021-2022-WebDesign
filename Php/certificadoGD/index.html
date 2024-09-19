@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="marca.php" method="post" enctype="multipart/form-data">
+        <input type="text" placeholder="Nome do Aluno" id="nome" name="nome"><br>
+        <input type="text" placeholder="Nome do Curso" id="curso" name="curso"><br>
+        <input type="number" placeholder="Carga horária" id="carga" name="carga" min="0"> *Em horas<br>
+        <label for="assinatura">Arquivo da assinatura do diretor da escola</label>
+        <input type="file" id="assinatura" name="assinatura"><br>
+        <label for="certificado">Arquivo do certificado da escola</label>
+        <input type="file" id="certificado" name="certificado"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>

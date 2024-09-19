@@ -1,0 +1,26 @@
+@keyframes move {
+    0%{
+        left: -30rem;
+    }
+    100%{
+        left: 200rem;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#man{
+    width: 30rem;
+    height: 30rem;
+    background-image: url("man.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -30rem;
+    top: 10rem;
+    animation: move 3s;
+}
+

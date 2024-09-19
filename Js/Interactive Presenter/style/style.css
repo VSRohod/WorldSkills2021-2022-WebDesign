@@ -1,0 +1,103 @@
+@keyframes galery {
+    0%{
+
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#window{
+    width: 100%;
+    height: 100vh;
+}
+
+#item, #item2{
+    width: 10rem;
+    height: 10rem;
+    border: 0.1rem solid black;
+    position: absolute;
+}
+
+#item{
+    top: 30%;
+    left: 50%;
+}
+
+#item2{
+    display: none;
+    top: 5%;
+    left: 50%;
+}
+
+#oculto{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    position: absolute;
+    transition: 1s;
+}
+
+#insideItem,#insideItem2,#insideItem3,#insideItem4{
+    width: 49%;
+    height: 49%;
+    float: left;
+    border:0.1rem solid black;
+    text-align: center;
+    line-height: 80px;
+    position: absolute;
+}
+
+.one{
+    top: 0;
+    left: 0;
+}
+
+.two{
+    top: 0;
+    right: 0;
+}
+
+.three{
+    bottom: 0;
+    left: 0;
+}
+
+.four{
+    bottom: 0;
+    right: 0;
+}
+
+#delete,#edit,#view,#delete2,#edit2,#view2,#delete3,#edit3,#view3,#delete4,#edit4,#view4{
+    display: none;
+}
+
+#button{
+    float: left;
+}
+
+#linha{
+    position: absolute;
+    width: 0.3rem;
+    height: 6rem;
+    background-color: black;
+    top: 12.3rem;
+    left: 51%;
+    display: none;
+}
+
+#galery,#galery2,#galery3,#galery4{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    left: -50rem;
+    background-color: rgb(223, 223, 223);
+    transition: 1s;
+}
+
+#galery img,#galery2 img,#galery3 img,#galery4 img{
+    width: 90%;
+    margin: 1rem 1rem;
+}

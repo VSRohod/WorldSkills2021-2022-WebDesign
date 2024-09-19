@@ -1,0 +1,43 @@
+@keyframes toggleOn {
+    0%{
+        margin-left: 0;
+        background-color: cyan;
+    }
+
+    100%{
+        margin-left: 80%;
+        background-color: blue;
+    }
+}
+
+@keyframes buttonOn {
+    0%{
+        background-color: blue;
+    }
+
+    100%{
+        background-color: cyan;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#button{
+    width: 10rem;
+    height: 2rem;
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 5rem;
+    animation: buttonOn 1s infinite;
+}
+
+#toggle{
+    width: 2rem;
+    height: 2rem;
+    background-color: cyan;
+    border-radius: 5rem;
+    animation: toggleOn 1s infinite;
+}

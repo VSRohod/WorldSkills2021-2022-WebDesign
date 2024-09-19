@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    width: 30rem;
+    height: 30rem;
+    margin: 10rem auto;
+    text-align: center;
+}
+
+#smiley{
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(255, 224, 88);
+    border: 1rem solid rgb(192, 146, 46);
+    border-radius: 20rem;
+    transition: 1s;
+}
+
+#divEyes{
+    width: 15rem;
+    height: 7rem;
+    margin: 5rem auto 0rem;
+}
+
+.eye{
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(192, 146, 46);
+    border-radius: 5rem;
+    transition: 1s;
+}
+
+#left{
+    float: left;
+}
+
+#right{
+    float: right;
+}
+
+#mouth{
+    width: 15rem;
+    height: 3rem;
+    background-color: rgb(192, 146, 46);
+    float: left;
+    margin: 1rem auto 0rem 2rem;
+    border-radius: 5rem;
+    transition: 1s;
+}
+

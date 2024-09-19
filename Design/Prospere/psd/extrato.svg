@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="667" viewBox="0 0 375 667">
+  <defs>
+    <clipPath id="clip-extrato">
+      <rect width="375" height="667"/>
+    </clipPath>
+  </defs>
+  <g id="extrato" clip-path="url(#clip-extrato)">
+    <rect width="375" height="667" fill="#fff"/>
+    <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(0 237)" fill="#f8f8f8" stroke="#707070" stroke-width="1">
+      <rect width="375" height="264" stroke="none"/>
+      <rect x="0.5" y="0.5" width="374" height="263" fill="none"/>
+    </g>
+    <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(0 506)" fill="#f8f8f8" stroke="#707070" stroke-width="1">
+      <rect width="185" height="155" stroke="none"/>
+      <rect x="0.5" y="0.5" width="184" height="154" fill="none"/>
+    </g>
+    <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(191 506)" fill="#f8f8f8" stroke="#707070" stroke-width="1">
+      <rect width="184" height="155" stroke="none"/>
+      <rect x="0.5" y="0.5" width="183" height="154" fill="none"/>
+    </g>
+    <g id="Rectangle_6" data-name="Rectangle 6" fill="#32d87d" stroke="#32d87d" stroke-width="2">
+      <rect width="375" height="195" stroke="none"/>
+      <rect x="1" y="1" width="373" height="193" fill="none"/>
+    </g>
+    <text id="EXTRATO-2" data-name="EXTRATO" transform="translate(188 108)" fill="#fff" font-size="35" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="-69.825" y="0">EXTRATO</tspan></text>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(11 9)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="45" height="37" rx="13" stroke="none"/>
+      <rect x="0.5" y="0.5" width="44" height="36" rx="12.5" fill="none"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" x2="25" transform="translate(21.5 19.5)" fill="none" stroke="#32d87d" stroke-width="2"/>
+    <line id="Line_2" data-name="Line 2" x2="25" transform="translate(21.5 27.5)" fill="none" stroke="#32d87d" stroke-width="2"/>
+    <line id="Line_3" data-name="Line 3" x2="25" transform="translate(21.5 35.5)" fill="none" stroke="#32d87d" stroke-width="2"/>
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(0 200)" fill="#262626" stroke="#707070" stroke-width="1">
+      <rect width="375" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="374" height="31" fill="none"/>
+    </g>
+    <text id="HOME" transform="translate(39 207)" fill="#fff" font-size="12" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="13">HOME</tspan></text>
+    <text id="EXTRATO-3" data-name="EXTRATO" transform="translate(87 207)" fill="#fff" font-size="12" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="13">EXTRATO</tspan></text>
+    <text id="PLANEJAMENTO" transform="translate(151 207)" fill="#fff" font-size="12" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="13">PLANEJAMENTO</tspan></text>
+    <text id="MINHAS_METAS" data-name="MINHAS METAS" transform="translate(253 207)" fill="#fff" font-size="12" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="13">MINHAS METAS</tspan></text>
+    <text id="EXTRATO-4" data-name="EXTRATO" transform="translate(138 269)" font-size="25" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="0">EXTRATO</tspan></text>
+    <text id="Maikai_-_17_02_Bares_Restaurantes_-_R_1201_Alagoana_Choperia_-_16_02_Bares_Restaurantes_-_R_620_J2_Automotiva_-_15_02_Transporte_-_R_731_Salario_R_8900_Big_Fone_-_15_02_Bares_Restaurantes_-_R_20_Big_Fone_-_10_02_Bares_Restaurantes_-_" data-name="Maikai - 17/02 Bares/Restaurantes = - R$1201 
+
+Alagoana Choperia - 16/02 Bares/Restaurantes = - R$620
+
+J2 Automotiva - 15/02 Transporte = - R$731
+
+Salario + R$8900 
+
+Big Fone   - 15/02 Bares/Restaurantes = - R$20
+
+Big Fone   - 10/02 Bares/Restaurantes = - " transform="translate(59 285)" fill="red" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="11">Maikai - 17/02 Bares/Restaurantes = - R$1201 </tspan><tspan fill="#707070"><tspan x="0" y="25"></tspan></tspan><tspan x="0" y="39">Alagoana Choperia - 16/02 Bares/Restaurantes = - R$620</tspan><tspan x="0" y="53"></tspan><tspan x="0" y="67">J2 Automotiva - 15/02 Transporte = - R$731</tspan><tspan y="67" fill="#00ff4c"></tspan><tspan fill="#00ff4c"><tspan x="0" y="81"></tspan></tspan><tspan fill="#007021"><tspan x="0" y="95">Salario + R$8900 </tspan></tspan><tspan fill="#707070"><tspan x="0" y="109"></tspan></tspan><tspan x="0" y="123" xml:space="preserve">Big Fone   - 15/02 Bares/Restaurantes = - R$20</tspan><tspan x="0" y="137"></tspan><tspan x="0" y="151" xml:space="preserve">Big Fone   - 10/02 Bares/Restaurantes = - R$20</tspan><tspan x="0" y="165"></tspan><tspan x="0" y="179" xml:space="preserve">Pastel e Cia   - 09/02 Bares/Restaurantes = - R$20</tspan><tspan x="0" y="193"></tspan></text>
+    <text id="_5_MAIORES_GASTOS" data-name="5 MAIORES GASTOS" transform="translate(29 511)" font-size="15" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="16">5 MAIORES GASTOS</tspan></text>
+    <text id="VALOR_TOTAL" data-name="VALOR TOTAL" transform="translate(239 511)" font-size="15" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="16">VALOR TOTAL</tspan></text>
+    <text id="Maikai_Bares_Restaurantes_R_1201_J2_Automotiva_Transporte_R_731_Alagoana_Choperia_Bares_Restaurantes_R_640_Palato_Mercado_R_350_Unimed_Maceió_Saúde_R_320_" data-name="Maikai Bares/Restaurantes = R$1201
+
+J2 Automotiva Transporte = R$731
+
+Alagoana Choperia Bares/Restaurantes = R$640
+
+Palato Mercado = R$350
+
+Unimed Maceió Saúde = R$320
+" transform="translate(13 538)" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="9">Maikai Bares/Restaurantes = R$1201</tspan><tspan x="0" y="20"></tspan><tspan x="0" y="31">J2 Automotiva Transporte = R$731</tspan><tspan x="0" y="42"></tspan><tspan x="0" y="53">Alagoana Choperia Bares/Restaurantes = R</tspan><tspan x="0" y="64">$640</tspan><tspan x="0" y="75"></tspan><tspan x="0" y="86">Palato Mercado = R$350</tspan><tspan x="0" y="97"></tspan><tspan x="0" y="108">Unimed Maceió Saúde = R$320</tspan></text>
+    <text id="R_4002_total_gasto" data-name="R$ 4002 total gasto" transform="translate(219 581)" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">R$ 4002 total gasto</tspan></text>
+    <text id="_20_transações" data-name="20 transações" transform="translate(238 618)" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">20 transações</tspan></text>
+  </g>
+</svg>

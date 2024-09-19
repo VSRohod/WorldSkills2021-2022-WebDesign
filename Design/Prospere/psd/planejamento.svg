@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="667" viewBox="0 0 375 667">
+  <defs>
+    <clipPath id="clip-planejamento">
+      <rect width="375" height="667"/>
+    </clipPath>
+  </defs>
+  <g id="planejamento" clip-path="url(#clip-planejamento)">
+    <rect width="375" height="667" fill="#fff"/>
+    <g id="Rectangle_6" data-name="Rectangle 6" fill="#32d87d" stroke="#32d87d" stroke-width="2">
+      <rect width="375" height="195" stroke="none"/>
+      <rect x="1" y="1" width="373" height="193" fill="none"/>
+    </g>
+    <text id="PLANEJAMENTO-2" data-name="PLANEJAMENTO" transform="translate(188 108)" fill="#fff" font-size="35" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="-122.553" y="0">PLANEJAMENTO</tspan></text>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(11 9)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="45" height="37" rx="13" stroke="none"/>
+      <rect x="0.5" y="0.5" width="44" height="36" rx="12.5" fill="none"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" x2="25" transform="translate(21.5 19.5)" fill="none" stroke="#32d87d" stroke-width="2"/>
+    <line id="Line_2" data-name="Line 2" x2="25" transform="translate(21.5 27.5)" fill="none" stroke="#32d87d" stroke-width="2"/>
+    <line id="Line_3" data-name="Line 3" x2="25" transform="translate(21.5 35.5)" fill="none" stroke="#32d87d" stroke-width="2"/>
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(0 200)" fill="#262626" stroke="#707070" stroke-width="1">
+      <rect width="375" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="374" height="31" fill="none"/>
+    </g>
+    <text id="HOME" transform="translate(39 207)" fill="#fff" font-size="12" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="13">HOME</tspan></text>
+    <text id="EXTRATO" transform="translate(87 207)" fill="#fff" font-size="12" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="13">EXTRATO</tspan></text>
+    <text id="PLANEJAMENTO-3" data-name="PLANEJAMENTO" transform="translate(151 207)" fill="#fff" font-size="12" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="13">PLANEJAMENTO</tspan></text>
+    <text id="MINHAS_METAS" data-name="MINHAS METAS" transform="translate(253 207)" fill="#fff" font-size="12" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="13">MINHAS METAS</tspan></text>
+    <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(0 237)" fill="#f8f8f8" stroke="#707070" stroke-width="1">
+      <rect width="375" height="238" stroke="none"/>
+      <rect x="0.5" y="0.5" width="374" height="237" fill="none"/>
+    </g>
+    <text id="RESUMO" transform="translate(150 268)" font-size="20" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="0">RESUMO</tspan></text>
+    <g id="Rectangle_20" data-name="Rectangle 20" transform="translate(0 480)" fill="#f8f8f8" stroke="#707070" stroke-width="1">
+      <rect width="375" height="181" stroke="none"/>
+      <rect x="0.5" y="0.5" width="374" height="180" fill="none"/>
+    </g>
+    <g id="Rectangle_15" data-name="Rectangle 15" transform="translate(29 309)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="318" height="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="317" height="11" fill="none"/>
+    </g>
+    <g id="Rectangle_16" data-name="Rectangle 16" transform="translate(29 309)" stroke="#707070" stroke-width="1">
+      <rect width="250" height="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="249" height="11" fill="none"/>
+    </g>
+    <g id="Rectangle_15-2" data-name="Rectangle 15" transform="translate(29 365)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="318" height="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="317" height="11" fill="none"/>
+    </g>
+    <g id="Rectangle_16-2" data-name="Rectangle 16" transform="translate(29 365)" stroke="#707070" stroke-width="1">
+      <rect width="113" height="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="112" height="11" fill="none"/>
+    </g>
+    <text id="R_3882_recebidos_de_R_4.000_planejados" data-name="R$ 3882 recebidos de R$4.000 planejados" transform="translate(38 282)" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">R$ 3882 recebidos de R$4.000 planejados</tspan></text>
+    <text id="R_1000_recebidos_de_R_4.000_planejados" data-name="R$ 1000 recebidos de R$4.000 planejados" transform="translate(49 338)" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">R$ 1000 recebidos de R$4.000 planejados</tspan></text>
+    <text id="RENDA" transform="translate(158 416)" font-size="20" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="0">RENDA</tspan></text>
+    <text id="R_3882_recebidos_este_mês" data-name="R$ 3882 recebidos este mês" transform="translate(38 431)" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">R$ 3882 recebidos este mês</tspan></text>
+    <g id="Rectangle_18" data-name="Rectangle 18" transform="translate(284 431)" fill="#0dacc5" stroke="#707070" stroke-width="1">
+      <rect width="63" height="21" rx="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="62" height="20" rx="8.5" fill="none"/>
+    </g>
+    <text id="PLANEJAR" transform="translate(316 445)" fill="#fff" font-size="11" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="-24.392" y="0">PLANEJAR</tspan></text>
+    <text id="GASTOS_ESSENCIAIS" data-name="GASTOS ESSENCIAIS" transform="translate(101 511)" font-size="20" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="0">GASTOS ESSENCIAIS</tspan></text>
+    <text id="Bares_Restaurantes_451_gastos_este_mês_Transporte_331_gastos_este_mês_Compras_1.100_gastos_este_mês_Contas_50_gastos_este_mês_Mercado_200_gastos_este_mês_Saúde_800_gastos_este_mês_Outros_75_gastos_este_mês_" data-name="Bares/Restaurantes =451 gastos este mês
+
+Transporte = 331 gastos este mês	
+
+Compras = 1.100 gastos este mês
+
+Contas = 50 gastos este mês		
+
+Mercado $200 gastos este mês	
+
+Saúde $800 gastos este mês		
+
+Outros $75 gastos este mês		
+" transform="translate(59 526)" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="11">Bares/Restaurantes =451 gastos este mês</tspan><tspan x="0" y="25"></tspan><tspan x="0" y="39">Transporte = 331 gastos este mês	</tspan><tspan x="0" y="53"></tspan><tspan x="0" y="67">Compras = 1.100 gastos este mês</tspan><tspan x="0" y="81"></tspan><tspan x="0" y="95" xml:space="preserve">Contas = 50 gastos este mês		</tspan><tspan x="0" y="109"></tspan><tspan x="0" y="123">Mercado $200 gastos este mês	</tspan><tspan x="0" y="137"></tspan><tspan x="0" y="151" xml:space="preserve">Saúde $800 gastos este mês		</tspan><tspan x="0" y="165"></tspan><tspan x="0" y="179" xml:space="preserve">Outros $75 gastos este mês		</tspan><tspan x="0" y="193"></tspan></text>
+    <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(284 431)" fill="#0dacc5" stroke="#707070" stroke-width="1">
+      <rect width="63" height="21" rx="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="62" height="20" rx="8.5" fill="none"/>
+    </g>
+    <text id="PLANEJAR-2" data-name="PLANEJAR" transform="translate(316 445)" fill="#fff" font-size="11" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="-24.392" y="0">PLANEJAR</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,117 @@
+@keyframes aparecer {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+body{
+    animation: 0.3s ease-in 0s 1 aparecer;
+}
+
+#corpo{
+    width: 90%;
+    height: auto;
+    padding: 0.2rem;
+    margin: 1rem auto 2rem;   
+}
+
+#pecasLoja{
+    width: 30%;
+    height: 45rem;
+    background-color: #9499B3;
+    float: left;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+
+#pecasPc{
+    width: 70%;
+    height: auto;
+    background-color: whitesmoke;
+    float: right;
+    margin-bottom: 1rem;
+}
+
+#pecasPcHome{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    float: right;
+    margin-bottom: 1rem;
+}
+
+#peca{
+    width: 80%;
+    height: 3rem;
+    background-color: white;
+    margin: 1rem auto;
+    color: black;
+}
+
+#peca img,#pecasPcHome img{
+    width: 3rem;
+    height: 100%;
+}
+
+#pecasPc div,#pecasPcHome div{
+    width: 30%;
+    height: 20rem;
+    float: left;
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid black;   
+    flex-grow: 1;
+}
+
+#pecasPc div img,#pecasPcHome div img{
+    width: 80%;
+    height: 90%;
+}
+
+#nav{
+    width: 80%;
+    height: 3rem;
+    margin: 1rem auto;
+}
+
+.butaoMenu{
+    width:7rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 3px solid black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#salvar,#editar{
+    float: left;
+}
+
+#voltar{
+    float: right;
+}
+
+#salvar:hover{
+    border: 3px solid rgb(107, 200, 0);
+    color:rgb(107, 200, 0);
+    box-shadow: rgb(107, 200, 0) 0px 4px 4px;
+
+}
+
+#voltar:hover{
+    border: 3px solid rgb(0, 137, 200);
+    color:rgb(0, 137, 200);
+    box-shadow: rgb(0, 137, 200) 0px 4px 4px;
+}
+
+#editar:hover{
+    border: 3px solid #7C8CEA;
+    color:#7C8CEA;
+    box-shadow: #7C8CEA 0px 4px 4px;
+}

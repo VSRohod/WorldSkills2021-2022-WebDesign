@@ -1,0 +1,76 @@
+body{
+    background-color: #7C8CEA;
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+h1{
+    font-size: 30pt;
+    margin-bottom: 3rem;
+}
+
+input{
+    width: 80%;
+    height: 2rem;
+    padding:0.5rem;
+    border: none;
+    border-bottom: 5px solid black;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#telaLogin{
+    width: 50%;
+    height: 40rem;
+    border-radius: 1rem;
+    margin: 5rem auto;
+    background-color: white;
+    animation: 0.3s ease-in 0s 1 aparecer;
+    box-shadow: rgba(50, 51, 53, 0.459) 0px 8px 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#bannerLogin{
+    width: 50%;
+    height: 100%;
+    background-color: #555766;
+    text-align: center;
+    color: white;
+    line-height: 500%;
+    float: left;
+    background-image: url("../images/1.png");
+    background-position: center;
+}
+
+#loginInfo{
+    width: 50%;
+    text-align: center;
+    padding-top: 5rem;
+    float:right;
+}
+
+button{
+    width: 4rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 3px solid black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    border: 3px solid #555766;
+    color:#555766;
+    box-shadow: #555766 0px 4px 4px;
+}

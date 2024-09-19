@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="931" height="484" viewBox="0 0 931 484">
+  <defs>
+    <clipPath id="clip-tutorialMessage">
+      <rect width="931" height="484"/>
+    </clipPath>
+  </defs>
+  <g id="tutorialMessage" clip-path="url(#clip-tutorialMessage)">
+    <rect width="931" height="484" fill="#8ed2e0"/>
+    <text id="LETS_START_" data-name="LETS START!" transform="translate(265 58)" fill="#fff" font-size="60" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="-181.98" y="56">LETS START!</tspan></text>
+    <text id="here_you_will_learn_how_to_use_our_app_and_make_your_interactive_presentation_in_the_easy_way_" data-name="here you will learn how to use our app and make your  interactive presentation, in the easy way!" transform="translate(213 199)" fill="#fff" font-size="30" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="12.595" y="28">here you will learn how to use our </tspan><tspan x="32.47" y="63" xml:space="preserve">app and make your  interactive </tspan><tspan x="41.05" y="98">presentation, in the easy way!</tspan></text>
+    <g id="Retângulo_15" data-name="Retângulo 15" transform="translate(283 349)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="365" height="82" stroke="none"/>
+      <rect x="0.5" y="0.5" width="364" height="81" fill="none"/>
+    </g>
+    <text id="NEXT" transform="translate(265 361)" fill="gray" font-size="50" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="-65.725" y="47">NEXT</tspan></text>
+  </g>
+</svg>

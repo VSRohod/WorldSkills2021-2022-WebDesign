@@ -1,0 +1,59 @@
+#criarMaquina{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.8rem;
+    background-color: rgb(111, 0, 255);
+    border: 0.1rem solid white;
+    color: white;
+    margin: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#excluirMaquina{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.8rem;
+    background-color: rgb(255, 0, 85);
+    border: 0.1rem solid white;
+    color: white;
+    margin: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#voltar{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.8rem;
+    background-color: rgb(255, 255, 255);
+    border: 0.1rem solid black;
+    color: black;
+    margin: 1rem;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+}
+
+.peca{
+    width: 30%;
+    height: 15rem;
+    background-color: white;
+    float: left;
+    margin: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#imgDiv{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(111, 0, 255);
+    margin: 0 auto 1rem;
+}
+
+#efeitoEscurecer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.568);
+}

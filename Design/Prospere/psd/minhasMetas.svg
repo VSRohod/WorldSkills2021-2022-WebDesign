@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="667" viewBox="0 0 375 667">
+  <defs>
+    <clipPath id="clip-minhasMetas">
+      <rect width="375" height="667"/>
+    </clipPath>
+  </defs>
+  <g id="minhasMetas" clip-path="url(#clip-minhasMetas)">
+    <rect width="375" height="667" fill="#fff"/>
+    <g id="Rectangle_6" data-name="Rectangle 6" fill="#32d87d" stroke="#32d87d" stroke-width="2">
+      <rect width="375" height="195" stroke="none"/>
+      <rect x="1" y="1" width="373" height="193" fill="none"/>
+    </g>
+    <text id="MINHAS_METAS" data-name="MINHAS METAS" transform="translate(188 108)" fill="#fff" font-size="35" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="-114.87" y="0">MINHAS METAS</tspan></text>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(11 9)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="45" height="37" rx="13" stroke="none"/>
+      <rect x="0.5" y="0.5" width="44" height="36" rx="12.5" fill="none"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" x2="25" transform="translate(21.5 19.5)" fill="none" stroke="#32d87d" stroke-width="2"/>
+    <line id="Line_2" data-name="Line 2" x2="25" transform="translate(21.5 27.5)" fill="none" stroke="#32d87d" stroke-width="2"/>
+    <line id="Line_3" data-name="Line 3" x2="25" transform="translate(21.5 35.5)" fill="none" stroke="#32d87d" stroke-width="2"/>
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(0 200)" fill="#262626" stroke="#707070" stroke-width="1">
+      <rect width="375" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="374" height="31" fill="none"/>
+    </g>
+    <text id="HOME" transform="translate(39 207)" fill="#fff" font-size="12" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="13">HOME</tspan></text>
+    <text id="EXTRATO" transform="translate(87 207)" fill="#fff" font-size="12" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="13">EXTRATO</tspan></text>
+    <text id="PLANEJAMENTO" transform="translate(151 207)" fill="#fff" font-size="12" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="13">PLANEJAMENTO</tspan></text>
+    <text id="MINHAS_METAS-2" data-name="MINHAS METAS" transform="translate(253 207)" fill="#fff" font-size="12" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="13">MINHAS METAS</tspan></text>
+    <text id="MINHA_META_" data-name="MINHA META
+" transform="translate(119 263)" font-size="25" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="0" y="0">MINHA META</tspan><tspan x="0" y="40"></tspan></text>
+    <g id="Rectangle_15" data-name="Rectangle 15" transform="translate(29 313)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="318" height="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="317" height="11" fill="none"/>
+    </g>
+    <text id="VOCÊ_JÁ_ECONOMIZOU:_R_1200_" data-name="VOCÊ JÁ ECONOMIZOU: R$1200!" transform="translate(138 276)" font-size="10" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="-50.1" y="11">VOCÊ JÁ ECONOMIZOU: </tspan><tspan x="-17.105" y="27">R$1200!</tspan></text>
+    <text id="_17_da_sua_meta_de_R_7.000_00" data-name="17% da sua meta de R$ 7.000,00" transform="translate(120 327)" font-size="8" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="-53.376" y="9">17% da sua meta de R$ 7.000,00</tspan></text>
+    <g id="Rectangle_16" data-name="Rectangle 16" transform="translate(29 313)" stroke="#707070" stroke-width="1">
+      <rect width="39" height="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="38" height="11" fill="none"/>
+    </g>
+    <g id="Rectangle_17" data-name="Rectangle 17" transform="translate(38 351)" fill="#f8f8f8" stroke="#707070" stroke-width="1">
+      <rect width="300" height="218" stroke="none"/>
+      <rect x="0.5" y="0.5" width="299" height="217" fill="none"/>
+    </g>
+    <text id="Para_esse_mês_você_precisa_de_uma_economia_de:_R_350_00_" data-name="Para esse mês você precisa de uma economia de:
+R$350,00
+" transform="translate(188 590)" font-size="15" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="-156.022" y="0">Para esse mês você precisa de uma economia de:</tspan><tspan x="-30.33" y="24">R$350,00</tspan><tspan x="0" y="48"></tspan></text>
+    <g id="Rectangle_18" data-name="Rectangle 18" transform="translate(62 633)" fill="#0dacc5" stroke="#707070" stroke-width="1">
+      <rect width="94" height="27" rx="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="93" height="26" rx="8.5" fill="none"/>
+    </g>
+    <text id="ALTERAR" transform="translate(109 651)" fill="#fff" font-size="15" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="-28.845" y="0">ALTERAR</tspan></text>
+    <g id="Rectangle_19" data-name="Rectangle 19" transform="translate(236 633)" fill="#ee0b0b" stroke="#707070" stroke-width="1">
+      <rect width="94" height="27" rx="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="93" height="26" rx="8.5" fill="none"/>
+    </g>
+    <text id="DELETAR" transform="translate(283 651)" fill="#fff" font-size="15" font-family="Baloo2-Regular, 'Baloo \32 '"><tspan x="-29.092" y="0">DELETAR</tspan></text>
+  </g>
+</svg>

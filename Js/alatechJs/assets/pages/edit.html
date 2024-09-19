@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alatech</title>
+    <link rel="stylesheet" href="../style/geral.css">
+    <link rel="stylesheet" href="../style/edit_home.css">
+</head>
+<body>
+    <header>
+        <h1>ALATECH</h1>
+        <span id="logoff">
+            <a href="../../index.html">LogOff</a>
+        </span>
+        <div id="userDiv">
+            <span id="userName">UserName</span>
+            <img src="../images/icons/baseline_account_circle_white_24dp.png" alt="" id="userImage">
+        </div>
+    </header>
+<div id="nav">
+    <button id="salvar" class="butaoMenu">SALVAR</button>
+    <a href="home.html"><button id="voltar" class="butaoMenu">VOLTAR</button></a>
+</div>
+    <div id="corpo">
+        <section id="pecasLoja">
+            <h1>ESCOLHA AS SUAS PEÇAS</h1>
+            <h2>Selecione o tipo de peça:</h2>
+            <select>
+                <option>Placa de vídeo</option>
+            </select>
+            <div id="peca" draggable="true" ondragstart="drag(event)">
+                Isto é uma peca
+                <img src="../images/10.png" alt="" id="thumb">
+            </div>
+            <div id="peca" draggable="true" ondragstart="drag(event)">
+                Isto é uma peca
+                <img src="../images/10.png" alt="" id="thumb">
+            </div>
+            <div id="peca" draggable="true" ondragstart="drag(event)">
+                Isto é uma peca
+                <img src="../images/10.png" alt="" id="thumb">
+            </div>
+            <div id="peca" draggable="true" ondragstart="drag(event)">
+                Isto é uma peca
+                <img src="../images/10.png" alt="" id="thumb">
+            </div>
+            <div id="peca" draggable="true" ondragstart="drag(event)">
+                Isto é uma peca
+                <img src="../images/10.png" alt="" id="thumb">
+            </div>
+        </section>
+        <section id="pecasPc">
+            <div id="pecasDrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="pecasDrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="pecasDrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="pecasDrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="pecasDrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="pecasDrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </section>
+    </div>
+    <footer></footer>
+</body>
+<script src="../scripts/edit.js"></script>
+</html>

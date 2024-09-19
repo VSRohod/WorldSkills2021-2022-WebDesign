@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132" height="130" viewBox="0 0 132 130">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 79 80">
+      <image width="79" height="80" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE8AAABQCAYAAABYtCjIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATvSURBVHhe7ZvNaxRJGMYf/ReUzSlgJ4sQ2Ys4g3qOwY2BJDcxMAQ8yIIsuMMcFsRT8CbxIAsS8BACI94yCzFoMmeVGfGyEAgyLeRi/PgbZut9u/pjunsmmS4yVUXqBxWmq6YqNU9XvV3zPswZAF1RHAVg8QQ4PPyBDx8+odM5CFoMZmJiHFevXsbY2HlZowcW7+vX73j58l9cv34FFy6M4wzVGoq4z/jy5QDv3n3EnTvzWgVk8RqNt2ISv8DzxoNaC/D9A7FbvmF+fkbWjJ6z9Ie2Kq04m6D56g4xLB5h8lbNw4T5RuI5itF9+vRF9/DwpyivuhVxTXVhqdSpPizZdiqllbZsK3dX3iffP6DPX9VuKac+LPGY/dp+8rx1krPyyhACiGAsyvvH2Fs6h7k1X7YRiXZZtu55sq0fOX3+foit6PoVhPA974nHLPL/RsPgbev9ga36MtqPnqEpqxwxR8e86VtiVaxj26mXocADo4VH186Jc2FcakcKW6RPiErfk6WAeNkY9GRaNvWlSJ8Qlb4ny9HiNV9jA8uYNWTCJjFYPP855pbWUVr5E067LDniJWLMtYeYqqePBtkYFB9l0m1V+ZQe1OcoVPqeLJwYEIdNLC0tBjUWUa9v4sGDu/Jq9EQrj1I9NmHCfFk8Si5SjswmaL40b52weJSVpeQi5chMX4E0P5onzZfmrROOeQJxfnJp+GHRIp4pH14VFi/pYYwiFR9uO90ehCosng4PwwQPQhV+YOjwMEzwIFSJznmj9gRs80zyiMRzDE9KvF3UEt8he79LZtt68mrNak/bb4nX6WLKd1NVclbeIM8g0Zb2N6ZXRX3sRfwX9R/kT9hN8W3r/A3FmHfK/Y0c8bL5M1M8A9M4VswzxTMwDbVte8r9jeLiOX/jeDEvPpcl2tL+Bp/zbouVGLznNMRJTgzo8jB0exCqRCtv1Blk0zPWx4HF0+FhmOBBqMLiJT2MUWCKB6EKxzyXhi+GFvHS2Comi6fzdxj04DDldxXDwuKZ8DsMGz0NfmDo8DDS2OhpROc83Z6CjZ5GJJ5jeBLi+VibE99Za7vyOsZf+x1jc8/hp3yKWrO/59GsidepsbiOxpHXRDS2vLaJhHge7lWXgY3XqbS6j51GC6WFm/BSPkWQ58vm/yhZMD0rxtr7nBBlF9sbZZSwiZ2EUp19Oba8tonebZuXVvffoNFeRnVY02biIkrthFD+Z+xVaqhOtbDfkXVS0IUZOw2hVMy7gdmKWHzb8XbzdzbRrtwaPmfn3cRCKRaKxsHFSV6R0fgkKC5h0lIzLfPA6N1uwZatzN7gq3z6eR4eZhbKkVCdfQQrjFakHL/wjTGEjHi8dcPtRlsWj3F/4Kfr73l4k5fkjaDtKVcYrUgZ9zjeidVoK1nxxNa9vwI0xKfjraYSzMMb0aR4F64wD5Mc9+yOd0SOeOLjzSwK9Z7hn4bcaoWhGNpCYzWIdyEc91afYK+0CIu1yxcv2Frr2Jiqoechm+tTDPI8KMSV0W6nbgI/iVtoT/1q5RElhBMDpvwOwzZPI1p5uj0FGz0NFk+Hh5HGRk+DxUt6GKNeAfT/bPU0OOa5NHwxIvEcw5N/VHEcCyeeAk48BZx4CjjxFHDiKeDEU8CJp4ATTwEnngJOPAWceAo48RRw4ingxFPAiaeAE08BziQHLx3DAfwP0fCrhtvwWqYAAAAASUVORK5CYII="/>
+    </pattern>
+    <clipPath id="clip-options">
+      <rect width="132" height="130"/>
+    </clipPath>
+  </defs>
+  <g id="options" clip-path="url(#clip-options)">
+    <rect id="options-2" data-name="options" width="132" height="134" transform="translate(0 -2)" fill="url(#pattern)"/>
+  </g>
+</svg>

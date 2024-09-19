@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+#loginTela{
+    width: 40%;
+    height: auto;
+    margin: 10rem auto;
+    background-color: white;
+    border-radius: 0.8rem;
+    padding: 3rem 1rem 3rem;
+    text-align: center;
+    border:rgb(141, 48, 228) solid 0.1rem;
+}
+
+h1{
+    margin-bottom: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(141, 48, 228);
+}
+
+input{
+    width: 10rem;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    text-align: center;
+    border:rgb(141, 48, 228) solid 0.1rem;
+    margin: 0.5rem;
+}
+
+
+#logar_Create{
+    padding:0.5rem;
+    height: 2rem;
+    text-align: center;
+    background-color: rgb(141, 48, 228);
+    color: white;
+    margin: 1rem;
+    border: 0;
+}
+
+a{
+    color: rgb(132, 0, 255);
+    text-decoration: none;
+}
